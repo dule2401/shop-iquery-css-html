@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>TOKYO TB WEB</title>
+    <!-- import css -->
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <link rel="stylesheet" href="./Assets/css/container.css">
+    <link rel="stylesheet" href="./Assets/css/footer.css">
+    <link rel="stylesheet" href="./Assets/css/login.css">
+    <link rel="stylesheet" href="./Assets/css/registrater.css">
+    <link rel="stylesheet" href="./Assets/css/cart.css">
+
+</head>
+
+<body>
+    <div class="app">
+        <!-- header -->
+        <div class="header">
+            <div class="navbar">
+                <div class="navbar_logo">
+                    <!-- click logo the load home in the container -->
+                    <img src="/Assets/img/logo.png" alt="Logo" class="logo" onclick="handleHome()">
+                </div>
+                <div class="navbar_search">
+                    <input type="text" class="search" placeholder="Search" />
+                    <img src="/Assets/img/search.png" alt="" class="search_icon">
+                </div>
+                <div class="icons">
+                    <!-- click icon login load login page in the container -->
+                    <img src="./Assets/img/login.png" alt="" class="login_icon" onclick="handleLogin()">
+                    <!-- click icon cart load cart page in the container -->
+                    <img src="./Assets/img/giỏ hàng.png" alt="" class="cart_icon" onclick="handleCart()">
+                </div>
+            </div>
+            <div class="text_list">
+                <a href="#" onclick="handleHome()">TRANG CHỦ</a>
+                <span class="text-border"></span>
+                <a href="#">GIỚI THIỆU</a>
+                <span class="text-border"></span>
+                <a href="#">SẢN PHẨM</a>
+                <span class="text-border"></span>
+                <a href="#">TIN TỨC</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- load data and show html -->
+        </div>
+        <!-- footer -->
+        <div class="footer">
+
+            <div class="footer-list">
+                <h3>SIÊU THỊ 201</h3>
+                <p>Là một doanh nghiệp Việt Nam hoạt động
+                    trong lĩnh vực tự động hoá,hệ thống điện… đang tích cực đóng góp một
+                    phần công sức vào sự nghiệp phát triển kinh tế của đất nước. Với sự định hướng
+                    đúng đắn và mục tiêu phấn đấu vì sự phát triển chung, trong quá trình hoạt động</p>
+
+            </div>
+            <div class="footer-list">
+                <h3>THÔNG TIN LIÊN HỆ</h3>
+                <p>VPGD: Số 12C, ngõ 158/225 Phố Ngọc Hà,
+                    P.Ngọc Hà, Q. Ba Đình, Tp. Hà Nội, Việt Nam <br>
+                    <span>Điện thoại: 0989794946</span> <br>
+                    Fax: 04 3943 4977 Hotline: 096 436 0079 Email: phuongmtt@gmail.com
+                    Website: www.evs.com.vn
+                </p>
+            </div>
+            <div class="footer-list">
+                <h3>HỖ TRỢ</h3>
+                <div class="help_phone">
+                    <img style="width: 15px; height: 15px;" src="./Assets/img/phone-icon-product.png" alt="">
+                    <p>Mrs Xuân<br>
+                        Hotline: 096-875-6612
+                    </p>
+                </div>
+                <div class="help_phone">
+                    <img style="width: 15px; height: 15px;" src="./Assets/img/phone-icon-product.png" alt="">
+                    <p>Mrs Xuân<br>
+                        Hotline: 096-875-6612
+                    </p>
+                </div>
+                <div class="help_phone">
+                    <img style="width: 15px; height: 15px;" src="./Assets/img/phone-icon-product.png" alt="">
+                    <p>Mrs Xuân<br>
+                        Hotline: 096-875-6612
+                    </p>
+                </div>
+                <div class="help_phone">
+                    <img style="width: 15px; height: 15px;" src="./Assets/img/phone-icon-product.png" alt="">
+                    <p>Mrs Xuân<br>
+                        Hotline: 096-875-6612
+                    </p>
+                </div>
+            </div>
+            <div class="footer-list">
+                <h3>BẢN ĐỒ</h3>
+                <img style="width: 274px; height: 184px;" src="/Assets/img/mapo.jpg" alt="">
+            </div>
+
+        </div>
+
+    </div>
+    <!-- load js -->
+    <script src="./index.js"></script>
+</body>
+
+</html>
